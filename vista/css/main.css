@@ -1,0 +1,193 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin: 0;
+}
+
+body {
+    background-color: #A294F9;
+}
+
+header {
+    background-color: #E5D9F2;
+    padding: 2vh;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+}
+#logo{
+    position: absolute;
+    left: 2vw;
+    top: -1vh;
+    height: 15vh;
+}
+.headerbutton{
+    margin-top: 10px;
+}
+
+
+main {
+    background-color: #A294F9;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.maintallas{
+    display: flex;
+    overflow-x: scroll;
+    grid-column: span 2;
+    border: #E5D9F2 solid 2px;
+    padding: 2px;
+    margin-top: 5px;
+    justify-self: center;
+    width: 200px;
+   
+}
+
+.maintallas button{
+border-radius: 2px;
+
+}
+.maintallas button:focus{
+    background-color: #CDC1FF;
+   
+    }
+
+.agregarAlCarrito{
+    grid-column-start: 1;
+    margin-top: 5px;
+    justify-self: center;
+}
+
+.nuevoButton {
+    padding: 2vh;
+    background-color: #F5EFFF;
+    border-radius: 10px;
+    margin: 1vh;
+}
+
+.form {
+    padding: 2vh;
+    border-radius: 10px;
+    margin: 1vh;
+    justify-content: center;
+
+}
+
+.input {
+    background-color: #F5EFFF;
+    border-radius: 10px;
+    margin: 1vh;
+    border: #E5D9F2 solid 1px;
+}
+
+.table {
+    background-color: #F5EFFF;
+    border-radius: 10px;
+    margin: 1vh;
+    padding: 2vh;
+    border: #E5D9F2 solid 3px;
+}
+
+#tablaUsuario {
+    border-collapse: collapse;
+}
+
+td {
+    border: #E5D9F2 solid 1px;
+    padding: 3px;
+}
+
+th {
+    border: #E5D9F2 solid 1px;
+    background-color: #A294F9;
+    padding: 3px;
+}
+
+.productos {
+    width: 90vw;
+    padding: 2vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+}
+
+.ventanaproducto {
+    display: grid;
+    margin: 2vh;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+}
+
+.imagenproducto {
+    grid-column: span 2;
+    border-radius: 55px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border: #E5D9F2 solid 3px;
+    justify-self: center;
+
+}
+#editarProducto{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+#formBorrarProducto{
+    margin-top: 5px;
+  margin-left: -130px;
+}
+.productocarrito{
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+}
+
+
+#acarrito div{
+    position: relative;
+}
+
+
+#spancarrito {
+    font-size: small;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+        z-index: 1; 
+   color: black;
+   background-color: #A294F9;
+   border-radius: 10px;
+   padding: 2px;
+}
+
+#imagencarrito {
+    width: 45px;
+    height: auto;
+    
+    
+}
+
+.producttext {
+    grid-column: span 2;
+    margin-top: 4px;
+    background-color: white;
+    border-radius: 55px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    text-align: center;
+    min-width: 134px;
+    max-width: fit-content;
+    padding-left: 7px;
+    padding-right: 7px;
+    justify-self: center;
+}
+
+button {
+    width: max-content;
+    height: min-content;
+}
